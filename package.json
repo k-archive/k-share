@@ -1,5 +1,5 @@
 {
-  "name": "share",
+  "name": "k-share",
   "version": "0.7.3",
   "description": "A database for concurrent document editing",
   "keywords": [
