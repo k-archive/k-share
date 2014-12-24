@@ -1,7 +1,7 @@
 .PHONY: all test clean webclient
 
 COFFEE = node_modules/.bin/coffee
-UGLIFY = node_modules/.bin/uglifyjs -d WEB=true
+UGLIFY = node_modules/uglify-js/bin/uglifyjs -d WEB=true
 
 CLIENT = \
 	web-prelude.js \
