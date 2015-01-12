@@ -32,10 +32,6 @@
   },
   "engine": "node >= 0.10",
   "main": "lib/index.js",
-  "scripts": {
-    "build": "make",
-    "prepublish": "make webclient"
-  },
   "licenses": [
     {
       "type": "BSD",
