@@ -31,6 +31,9 @@
     "sinon": "*",
     "uglify-js": "~2"
   },
+  "optionalDependencies": {
+    "express": "~3"
+  },
   "engine": "node >= 0.10",
   "main": "lib/index.js",
   "scripts": {
