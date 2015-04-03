@@ -18,6 +18,9 @@
   "dependencies": {
     "livedb": "^0.5.0",
     "ottypes": "~1",
+    "semver": "~2",
+    "express": "~3",
+    "connect": "*",
     "hat": "*",
     "async": "~0.2"
   },
