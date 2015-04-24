@@ -5,7 +5,8 @@ UserAgent = require '../../lib/server/useragent'
 sinon = require 'sinon'
 {Readable} = require 'stream'
 {EventEmitter} = require 'events'
-server = require '../../lib/server'
+assert = require 'assert'
+sinon = require 'sinon'
 
 describe 'UserAgent', ->
 
