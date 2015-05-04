@@ -1,12 +1,10 @@
 {expect} = require 'chai'
 {Connection} = require '../../lib/client'
 {Doc}    = require '../../lib/client/doc'
-ottypes  = require 'ottypes'
-require '../../lib/types/text-api'
+textType = require('ot-text').type
 
 describe 'Doc', ->
 
-  textType = ottypes['http://sharejs.org/types/textv1']
   numberType = require('../helpers/ot_number')
 
   createConnection = ->
