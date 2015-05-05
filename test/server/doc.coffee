@@ -14,7 +14,6 @@ describe 'Doc', ->
     sent: []
     canSend: true
     send: (data)-> @sent.push(data)
-    sendOp: (msg)-> @send(msg)
     sendSubscribe: (collection, name, version)->
       msg = a: 'sub', c:collection, d:name
       msg.v = version if version?
