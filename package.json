@@ -1,6 +1,6 @@
 {
   "name": "k-share",
-  "version": "0.7.17",
+  "version": "0.7.37",
   "description": "A database for concurrent document editing",
   "keywords": [
     "operational transformation",
