@@ -25,7 +25,6 @@
   },
   "devDependencies": {
     "browserchannel": "*",
-    "browserify": "^10.0.0",
     "chai": "*",
     "coffee-script": "~1.7.x",
     "connect": "^3.3.0",
@@ -46,7 +45,6 @@
   "scripts": {
     "build": "make",
     "test": "node_modules/mocha/bin/mocha test/server test/browser",
-    "prepublish": "make webclient",
     "coverage": "node node_modules/istanbul/lib/cli cover node_modules/mocha/bin/_mocha test/server test/browser"
   },
   "licenses": [
