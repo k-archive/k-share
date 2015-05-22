@@ -38,7 +38,7 @@
     "uglify-js": "^2.4.20"
   },
   "optionalDependencies": {
-    "express": "~3"
+    "express": "~4"
   },
   "engine": "node >= 0.10",
   "main": "lib/index.js",
