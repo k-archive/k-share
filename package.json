@@ -1,6 +1,6 @@
 {
   "name": "k-share",
-  "version": "0.7.45",
+  "version": "0.7.46",
   "description": "A database for concurrent document editing",
   "keywords": [
     "operational transformation",
@@ -18,7 +18,7 @@
   "dependencies": {
     "async": "^0.9.0",
     "hat": "^0.0.3",
-    "livedb": "git://github.com/share/livedb.git",
+    "livedb": "*",
     "ot-json0": "^1.0.0",
     "ot-text": "^1.0.0",
     "ot-text-tp2": "^1.0.0"
