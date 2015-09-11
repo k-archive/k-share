@@ -61,7 +61,7 @@ to use [browserchannel](https://github.com/josephg/node-browserchannel).
 To create a ShareJS server instance:
 
 ```javascript
-var livedb = require('livedb');
+var livedb = require('k-livedb');
 var sharejs = require('share');
 
 var backend = livedb.client(livedb.memory());
